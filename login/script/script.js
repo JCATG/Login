@@ -10,11 +10,16 @@ function validar(){
       nome.focus();
   }
   else if(senha.value ==""){
-    alert("informe a senha para entrar")
+   alert("informe a senha para entrar")
     senha.focus();
   }
-  else if ((nome.value == "j.alves160600@gmail.com") && (senha.value == "12345678")) {
-    alert("login realizado")
+  else if((nome.value != 'j.alves160600@gmail.com')){
+          alert("email invalido")
   }
- 
+  else if ((nome.value == "j.alves160600@gmail.com") && (senha.value == "12345678")) {
+   alert("login realizado")
+  }
+  else if((senha.value != "12345678")){
+    alert("senha invalida")
+  } 
 }
