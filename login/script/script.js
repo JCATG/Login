@@ -14,7 +14,7 @@ function validar(){
     senha.focus();
   }
   else if((nome.value != 'j.alves160600@gmail.com')){
-          alert("email invalido")
+          alert("email ou senha invalido")
   }
   else if ((nome.value == "j.alves160600@gmail.com") && (senha.value == "12345678")) {
    alert("login realizado")
